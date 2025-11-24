@@ -5,11 +5,11 @@ import { AlertTriangle, Shield, Lock, Eye, ArrowRight } from "lucide-react"
 
 export default function HomePage() {
   return (
-    <div className="container py-8 md:py-16">
+    <div className="container p-8 md:p-16 max-w-full">
       {/* Hero Section */}
       <section className="mb-16 md:mb-24">
-        <div className="mx-auto max-w-3xl text-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-balance text-foreground">
+        <div className="mx-auto text-center">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-balance text-foreground mt-8">
             Protege tu Privacidad Digital
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed text-pretty">

@@ -11,8 +11,8 @@ export const metadata = {
 
 export default function EstrategiasPage() {
   return (
-    <div className="container py-8 md:py-12">
-      <div className="max-w-4xl mx-auto">
+    <div className="container max-w-full p-8 md:py-12">
+      <div className="mx-auto">
         <div className="mb-8">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-balance text-foreground">
             Estrategias de Privacidad

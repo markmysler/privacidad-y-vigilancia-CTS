@@ -175,7 +175,7 @@ export function PrivacyChecklist({ level, sections }: PrivacyChecklistProps) {
                       id={item.id}
                       checked={isChecked}
                       onCheckedChange={() => toggleItem(item.id)}
-                      className="mt-0.5"
+                      className="mt-0.5 border-2"
                     />
                     <label htmlFor={item.id} className="flex-1 cursor-pointer">
                       <p

@@ -8,8 +8,8 @@ export const metadata = {
 
 export default function RecursosPage() {
   return (
-    <div className="container py-8 md:py-12">
-      <div className="max-w-6xl mx-auto">
+    <div className="container p-8 md:py-12 max-w-full">
+      <div className="mx-auto">
         <div className="mb-8">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-balance text-foreground">Recursos y Herramientas</h1>
           <p className="text-lg text-muted-foreground leading-relaxed text-pretty">

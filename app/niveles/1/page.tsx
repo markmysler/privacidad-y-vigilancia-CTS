@@ -125,8 +125,8 @@ const checklistSections: ChecklistSection[] = [
 
 export default function Nivel1Page() {
   return (
-    <div className="container py-8 md:py-12">
-      <div className="max-w-4xl mx-auto">
+    <div className="container p-8 md:py-12 max-w-full">
+      <div className="mx-auto">
         {/* Header */}
         <div className="mb-8">
           <Link

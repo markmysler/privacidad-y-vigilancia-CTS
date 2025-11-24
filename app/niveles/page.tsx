@@ -10,8 +10,8 @@ export const metadata = {
 
 export default function NivelesPage() {
   return (
-    <div className="container py-8 md:py-12">
-      <div className="max-w-4xl mx-auto">
+    <div className="container p-8 max-w-full md:py-12">
+      <div className="mx-auto">
         <div className="mb-12 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-balance text-foreground">Niveles de Privacidad</h1>
           <p className="text-lg text-muted-foreground leading-relaxed text-pretty max-w-2xl mx-auto">

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function InvestigacionPage() {
   return (
     <main className="min-h-screen py-16">
-      <div className="container mx-auto px-4 max-w-4xl">
+      <div className="container mx-auto p-8 max-w-full">
         {/* Header */}
         <div className="mb-12">
           <div className="flex items-center gap-3 mb-4">
