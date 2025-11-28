@@ -51,7 +51,7 @@ export function Header() {
               </Button>
             </SheetTrigger>
             <SheetContent side="right" className="w-64">
-              <nav className="flex flex-col gap-4 mt-8" aria-label="Navegación móvil">
+              <nav className="pl-4 flex flex-col gap-4 mt-8" aria-label="Navegación móvil">
                 {navItems.map((item) => (
                   <Link
                     key={item.href}
